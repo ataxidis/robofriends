@@ -8,9 +8,9 @@ class ErrorBoundry extends Component {
         }
     }
 
-    componentDidMount(error, info) {
-        this.setState({ hasError: true });
-    }
+    // componentDidMount(error, info) {
+    //     this.setState({ hasError: true });
+    // }
 
     render() {
         if ( this.state.hasError ) {
